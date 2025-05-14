@@ -44,6 +44,21 @@ namespace Zuplae.Aulas.Atv0010.ConsoleApp
 
             Console.Write("\n\tDigite a taxa IPCA mensal:\n");
             double ipca = Console.ReadLine();
+
+
+            Console.WriteLine("\n\n");
+            Console.WriteLine($"\n\t========== DADOS DEMOGRÁFICOS DA CIDADE: {nomecid}");
+
+            Console.Write($"\n\tNome da Cidade: {nomecid}");
+            Console.Write($"\n\tArea Territorial: {territorio}");
+            Console.Write($"\n\tNúmero de Habitantes: {habitantes}");
+            Console.Write($"\n\tDensidade Demográfica: {densidade}");
+            Console.Write($"\n\tPIB Per Capita: {pib}");
+            Console.Write($"\n\tEscolarização 6-14 anos: {escolaridade}");
+            Console.Write($"\n\tAnalfabetismo + 15 anos: {analfabetismo}");
+            Console.Write($"\n\tQuantidade Filhos por mulher: {fecundidade}");
+            Console.Write($"\n\tTaxa Mortalidade Infantil: {mortalidadeInf}");
+            Console.Write($"\n\tTaxa de Desocupação: {desocupacao}\n");
         }
     }
 }
