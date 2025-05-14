@@ -10,6 +10,7 @@ namespace Zuplae.Aulas.Atv0010.ConsoleApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\n\t========== ATIVIDADE 10 ==========");
         }
     }
 }
